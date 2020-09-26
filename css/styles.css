@@ -1,0 +1,52 @@
+h3{
+    text-align:center;
+    color: darkred;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: fantasy;
+    font-weight: bold;
+    
+}
+
+p{
+    text-align:center;
+    size: 2em;
+    margin-left:5em;
+    margin-right: 5em;
+}
+
+h5{
+    text-align:center;
+    color: darkred;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: fantasy;
+    font-weight: bold;
+}
+form{
+    margin-left:25em;
+    margin-top:3em;
+    margin-right:20em;
+    border:solid black 1px;
+    padding:2em;
+    background-attachment: fixed;
+    
+}
+
+button{
+     font-weight: bold;
+     background-color: darkred;
+     margin-left: 10em;
+}
+
+label{
+    padding:2px;
+    color: black;
+}
+
+input{
+    font-size: 20px;
+    height:40px;
+    
+}
+
