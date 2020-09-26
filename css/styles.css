@@ -1,11 +1,10 @@
-h3{
+h3 {
     text-align:center;
     color: darkred;
     text-decoration: underline;
     text-underline-position: under;
     font-family: fantasy;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 p{
