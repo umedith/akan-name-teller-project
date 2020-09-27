@@ -10,20 +10,29 @@
         to you. </p>
 
        <form>
+        <script src="js/scripts.js"></script>
         <h5>fill the form to check your akan name</h5>
           <label for="day"> Day:</label>
-          <input type="number" id="day" name="day" class="this"><br><br>
-          <label for="month">month:</label>
-          <input type="number" name="month" id="month" class="this"><br><br>
-          <label for="year">Year:</label>
-          <input type="number"id="year" name="year" class="this"><br><br>
+          <input type="number" id="day" name="day" ><br>
+          <label for="month">Month:</label>
+          <input type="number" name="month" id="month" ><br>
+
+          <div id="year">
+            <label for="year">Year:</label>
+            <input type="number" id="thous" name="thous" class="this" maxlength = "1" required>
+            <input type="number" id="hund" name="hund" class="this" maxlength = "1" required>
+            <input type="number" id="ten" name="ten" class="this" maxlength = "1" required>
+            <input type="number" id="one" name="one" class="this" maxlength = "1" required>
+          </div><br>
+         
+          
           <label>Gender: </label><br>
           <select name="gender" id="gender">
               <option value="male">Male</option>
               <option value="female">Female</option>
-          </select>
+          </select><br>
 
-          <button>check akan name</button>
+          <input type="button" onclick="giveAkanName()"  class="button" value="submit" >
        </form>
        
         

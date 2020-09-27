@@ -1,3 +1,10 @@
+
+body{
+    background-image: url(1.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h3,h5 {
     text-align:center;
     color: darkred;
@@ -18,14 +25,18 @@ form{
     margin-top:3em;
     margin-right:20em;
     border:solid black 1px;
-    padding:2em;
+    padding:3em;
     background-attachment: fixed; 
+    background-color: azure;
 }
 
-button{
+.button{
      font-weight: bold;
      background-color: green;
-     margin-left: 10em;
+     margin-left: 8em;
+     border-radius: 2em;
+     height: 2em;
+     width:7em;
 }
 
 label{
@@ -36,5 +47,19 @@ label{
 input{
     font-size: 20px;
     height:30px; 
+    margin:5px;
+}
+
+select{
+    margin:5px;
+}
+
+#year{
+    display: inline;
+}
+
+.this{
+    height:1em;
+    width: 2em;
 }
 
