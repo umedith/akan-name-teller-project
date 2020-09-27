@@ -28,7 +28,7 @@ p {
     color:white;
 }
 form{
-    
+
     margin-left:25em;
     margin-top:3em;
     margin-right:20em;
@@ -42,6 +42,7 @@ form{
 }
 
 .button{
+    
      font-weight: bold;
      background-color: #444422;
      margin-left: 8em;
