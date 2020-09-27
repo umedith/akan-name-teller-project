@@ -56,8 +56,7 @@ var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 
-if(gender == "female"){
-    
+if(gender == "female"){ 
     switch(rounded){
         case 1:
             document.write("your Akan name is : " + femaleNames[0]) ;
