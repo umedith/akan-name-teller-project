@@ -39,7 +39,6 @@ if (rounded == 1 ){
       
 }else if(rounded == 2){
     document.write("you were born on tuesday and ");
-  
 }else if(rounded == 3){
     document.write("you were born on wednesday and ");
 }else if(rounded == 4){
