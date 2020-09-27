@@ -35,8 +35,7 @@ var rounded = Math.trunc(birthDate);
 
 
 if (rounded == 1 ){
-    document.write("you were born on monday and ");
-      
+    document.write("you were born on monday and ");     
 }else if(rounded == 2){
     document.write("you were born on tuesday and ");
 }else if(rounded == 3){
@@ -52,7 +51,6 @@ if (rounded == 1 ){
 }else{
     document.write("invalid day");
 }
-
 
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
