@@ -7,7 +7,7 @@ var hundred = document.getElementById("hund").value;
 var tens = document.getElementById("ten").value;
 var ones= document.getElementById("one").value;
 
-if (day < 1 || day> 31){
+if (day < 1 || day> 31) {
     if (month<1 || month >12){
         alert("the day and month are invalid");
     }else{
