@@ -1,13 +1,25 @@
 
 body {
-    background-image: url(1.jpeg);
+    background-image: url(9.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
-h3,h5 {
+h5 {
     text-align:center;
-    color: darkred;
+    color:#663300;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: fantasy;
+    font-weight: bold; 
+    font-size: 25px; 
+   
+   
+}
+h3{
+    text-align:center;
+    color:#009999;
     text-decoration: underline;
     text-underline-position: under;
     font-family: fantasy;
@@ -19,6 +31,7 @@ p {
     font-size: 20px;
     margin-left:5em;
     margin-right: 5em;
+    color:white;
 }
 form{
     margin-left:25em;
@@ -27,12 +40,15 @@ form{
     border:solid black 1px;
     padding:3em;
     background-attachment: fixed; 
-    background-color: azure;
+    background-color: #009999;
+    border-radius: 4em;
+    opacity: 0.8;
+    box-shadow:5px 5px 15px 5px black;
 }
 
 .button{
      font-weight: bold;
-     background-color: green;
+     background-color: #444422;
      margin-left: 8em;
      border-radius: 2em;
      height: 2em;
@@ -42,12 +58,14 @@ form{
 label{
     padding:2px;
     color: black;
+    font-size: 20px;
 }
 
 input {
     font-size: 20px;
     height:30px; 
     margin:5px;
+    
 }
 
 select{
