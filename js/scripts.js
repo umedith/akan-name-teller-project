@@ -22,7 +22,6 @@ if (day < 1 || day> 31) {
 
 var century= thousand +''+hundred;
 var decade = tens+''+ones;
-
 var birthDate = (((century/4) -2*century-1) + ((5*decade/4) ) + ((26*(month+1)/10)) + day ) % 7;
 document.write(birthDate);
 }
