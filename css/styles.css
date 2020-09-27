@@ -6,7 +6,7 @@ body {
     background-size: cover;
     
 }
-h5 {
+h5,h3 {
     text-align:center;
     color:#663300;
     text-decoration: underline;
@@ -18,13 +18,7 @@ h5 {
    
 }
 h3{
-    text-align:center;
     color:#009999;
-    text-decoration: underline;
-    text-underline-position: under;
-    font-family: fantasy;
-    font-weight: bold; 
-    font-size: 25px; 
 }
 p {
     text-align:center;
@@ -34,6 +28,7 @@ p {
     color:white;
 }
 form{
+    
     margin-left:25em;
     margin-top:3em;
     margin-right:20em;

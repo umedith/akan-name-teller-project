@@ -9,20 +9,19 @@ var tens = document.getElementById("ten").value;
 var ones= document.getElementById("one").value;
 var gender =  document.getElementById("gender").value;
 
-
+start:
 if (day < 1 || day> 31) {
     if (month<1 || month >12){
         alert("the day and month are invalid!!!!");
-        
+        goto:start;
     }else{
         alert("the day is invalid!!!!");
-       
+       goto:start;
     }
-
 }else {
     if (month<1 || month>12){
         alert('the month is invalid!!!!');
-        
+        goto:start;
        }
 }
 
